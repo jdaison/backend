@@ -1,0 +1,35 @@
+{
+  "name": "backend-raspberypi-inspiramed",
+  "version": "1.0.0",
+  "description": "Backend to receive data from arduino and send to frontend in real time",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdaison/backend.git"
+  },
+  "keywords": [
+    "express",
+    "arduino",
+    "socketio",
+    "inspiramed",
+    "ventilator"
+  ],
+  "author": "jdaison@hotmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jdaison/backend/issues"
+  },
+  "homepage": "https://github.com/jdaison/backend#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.1"
+  }
+}
